@@ -26,16 +26,16 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  font-family: 'Bodoni', poppins ;
+  font-weight: 400;
   color: #444;
-  line-height: 1.9;
+  line-height: 2.1;
   background-color: #f3f3f3;
 }
 
-
 .mli{
-  font-size: 26px;
+  font-size: 30px;
+  font-weight: 600;
 }
 /* GENERAL ELEMENTS */
 .section {
@@ -246,8 +246,14 @@ h4 {
 .features__feature {
   align-self: center;
   justify-self: center;
+  cursor: pointer;
   width: 70%;
   font-size: 1.5rem;
+}
+
+.features__feature :hover{
+  padding: 5px;
+  box-shadow: -1px 0px 14px;
 }
 
 .features__icon {
@@ -475,8 +481,8 @@ h4 {
 .testimonial::before {
   content: '\201C';
   position: absolute;
-  top: -5.7rem;
-  left: -6.8rem;
+  top: -6.7rem;
+  left: -6.9rem;
   line-height: 1;
   font-size: 20rem;
   font-family: inherit;
@@ -649,6 +655,7 @@ h4 {
   margin: 0 10px 0 0;
   background: #92d69a;
   border: none;
+  cursor: pointer;
 }
 
 select {
@@ -659,6 +666,7 @@ select {
 textarea {
   width: 423px;
   height: 131px;
+  font-size: 20px;
 }
 
 .btn--close-modal {
